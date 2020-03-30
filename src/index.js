@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener('submit', function(event) {
     event.preventDefault()
     list.appendChild(task.value)
-
+document.getElementById("myList").appendChild(node);
   });
   
 
