@@ -1,9 +1,8 @@
-let form = document.getElementById("create-task-form");
-let task = document.getElementById("new-task-description");
-let listItem = document.createElement("li");
-let taskList = document.getElementById("tasks");
 
 document.addEventListener("DOMContentLoaded", () => {
+    const task = document.getElementById("new-task-description")
+});	  const submit = document.getElementById("submit");
+  const list = document.getElementById("list");
   form.addEventListener('submit', function(event) {
     event.preventDefault()
   listItem.appendChild(task.value);
