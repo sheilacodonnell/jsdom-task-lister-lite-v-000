@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const node = document.createElement("LI");
 
   form.addEventListener('submit', function(event) {
-    event.preventDefault()
-    node.appendChild(task.value)
+    event.preventDefault();
+    node.appendChild(task.value);
     taskList.appendChild(node);
   });
   
