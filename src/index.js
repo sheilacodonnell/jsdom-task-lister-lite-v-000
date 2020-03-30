@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     event.preventDefault();
     let li = document.createElement("li");
     li.innerHTML = input.value;
-    tasks.appendChild(li);
+    taskList.appendChild(li);
   });
   
 
