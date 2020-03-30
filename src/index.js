@@ -9,7 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   form.addEventListener('submit', function(event) {
     event.preventDefault();
-    taskList.appendChild(task.value);
+    taskList.innerHTML += `<div id="list-${taskDescription.value}"><li></div>`;
+
   });
   
 
