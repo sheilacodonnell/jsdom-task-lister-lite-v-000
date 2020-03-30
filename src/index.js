@@ -8,8 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   form.addEventListener('submit', function(event) {
     event.preventDefault()
-    list.append
-    list.innerHTML += `<div id="list-${task.value}"><li>`;
+    list.appendChild(task.value);
 
   });
   
