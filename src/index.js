@@ -9,9 +9,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   form.addEventListener('submit', function(event) {
     event.preventDefault();
-    let li = document.createElement("li");
-    li.innerHTML = task.value;
-    taskList.appendChild(li);
+    let listElement = document.createElement("li");
+    listElement.innerHTML = task.value;
+    taskList.appendChild(listElement);
   });
   
 
