@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const submit = document.getElementById("submit");
   const taskList = document.getElementById("tasks");
   const form = document.getElementById("create-task-form");
-  const listElement = document.createElement("li");
+  let listElement = document.createElement("li");
 
   form.addEventListener('submit', function(event) {
     event.preventDefault();
