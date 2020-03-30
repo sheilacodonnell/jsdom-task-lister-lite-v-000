@@ -5,7 +5,8 @@ let taskList = document.getElementById("tasks");
 document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener('submit', function(event) {
     event.preventDefault()
-    
+  listItem.appendChild(listItemText);
+  taskList.appendChild(listItem);
   });
   
 
